@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+    position:relative;
+    background-color: rgba(62, 148, 213, 0.409)
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    margin-left:200px;
+}
+nav ul{
+    display:flex;
+    gap:50px;
+    list-style-type:none;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+}
+.idn button{
+    border:black solid 1px;
+    border-radius:40px;
+    padding:10px 50px;
+    background-color:rgba(0, 0, 0, 0) ;
+}
+.search img{
+    width:50px;
+}
+.bg {
+    background-image: url('https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; 
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+    gap:300px;
+    align-items: center;
+    margin-top:10px;
+}
+
+.leftc h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.leftc p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.buttons .btn {
+    padding:10px 50px;
+    margin-top:10px;
+    border-radius: 40px;
+    cursor:pointer;
+}
+.btn-b1{
+    border:none;
+    background: linear-gradient(45deg, #55adff, #1d2ba8);
+    color:white;
+    margin-right:30px;
+    box-shadow:20px 30px 50px rgba(0, 0, 0, 0.3); 
+}
+.btn-b2{
+    background-color: transparent;
+}
+.rightc{
+    display: flex;
+    gap:20px;
+}
+.card{
+    background:linear-gradient(45deg, #55beff7e, #1ec3ff2d);
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+    color: #333;
+}
+.card p{
+    margin-top:30px;
+}
+.card h1{
+    margin-top:10px;
+}
+.ticon img{
+    width:100px;
+    align-items: center;
+} 
+.rightc img{
+    width:90px;
+    align-items:center;
+}
+.moreinfo{
+    position: absolute;
+    right: 150px;
+    bottom: 30px;
+}
